@@ -19,6 +19,7 @@ fibonacci:
 	@ END CODE MODIFICATION
 
 .for_loop:
+	@countdown loop
 	add r5,r3,r4	@result=pre+now
 	mov r3,r4	@pre=now
 	mov r4,r5	@now=result

@@ -16,8 +16,8 @@ fibonacci:
 	mov r4,#1	@r4=now	
 	mov r5,#0	@r5=result
 	mov r6,r0	@r6 is i
-
 	@ END CODE MODIFICATION
+
 .for_loop:
 	add r5,r3,r4	@result=pre+now
 	mov r3,r4	@pre=now
