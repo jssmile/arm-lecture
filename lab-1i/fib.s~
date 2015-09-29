@@ -27,7 +27,7 @@ fibonacci:
 	bge .for_loop
 
 	mov r0,r5
-	pop{r3,r4,r5,r6,pc}
+	pop {r3,r4,r5,r6,pc}
 
 	.size fibonacci, .-fibonacci
 	.end
